@@ -1,5 +1,17 @@
 {
     "application": {
-        "title": "Memorizou - Sua ferramenta de memorização"
+        "title": "Memorizou - Sua ferramenta de memorização",
+        "smallName": "memo"
+    },
+    "menu": {
+        "startNow": "Começar já!"
+    },
+    "blocks": {
+        "featured": {
+            "welcome": "Bem-vindo ao Memorizou!",
+            "title": "Destaque-se!",
+            "subTitle": "Vestibulares, concursos, escola ou faculdade\nUtilize o memo como seu parceiro de estudos",
+            "howWorks": "Veja como funciona"
+        }
     }
 }

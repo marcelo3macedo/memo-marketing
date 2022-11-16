@@ -1,10 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
+
+:root {
+  --primary: #545454;
+  --secondaryDark: #177472;
+  --secondary100: #21b3af;
+  --secondary50: #ace1e8;
+  --secondary10: #f7ffff;
+  --textSecondary100: #f7ffff;  
+  --opacity: 0.8;
+  --maxWidth: 1100px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: 'Barlow', sans-serif;
+  color: var(--primary);
 }
 
 a {
@@ -12,8 +30,16 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+h1 {
+  font-size: 42pt;
+}
+
+h3 {
+  font-size: 18pt;
+}
+
+h4 {
+  font-size: 1.05em;
 }
 
 @media (prefers-color-scheme: dark) {
