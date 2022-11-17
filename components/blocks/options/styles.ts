@@ -1,18 +1,18 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-    background: rgb(119,154,158);
-    background: linear-gradient(7deg, rgba(119,154,158,1) 0%, rgba(158,211,218,1) 35%, rgba(172,225,232,1) 100%);
+    background: var(--secondary30);    
 `;
 
 export const Container = styled.div`
     max-width: var(--maxWidth);
     margin: auto;
+    min-height: 800px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 `;
 
 export const Picture = styled.img`
-    max-width: 600px;
+    max-width: 500px;
 `;

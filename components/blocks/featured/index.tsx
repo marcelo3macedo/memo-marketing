@@ -1,4 +1,4 @@
-import womanThinking from "@assets/images/featured/womanThinking.png"
+import womanThinking from "@assets/images/blocks/womanThinking.png"
 import TextWithButton from "@components/elements/textWithButton"
 import { Wrapper, Picture, Container } from "./styles"
 

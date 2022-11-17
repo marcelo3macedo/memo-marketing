@@ -12,6 +12,10 @@
             "title": "Destaque-se!",
             "subTitle": "Vestibulares, concursos, escola ou faculdade\nUtilize o memo como seu parceiro de estudos",
             "howWorks": "Veja como funciona"
+        },
+        "options": {
+            "subTitle": "Diversas Opções",
+            "title": "Saia na frente, use o Memo!"
         }
     }
 }
