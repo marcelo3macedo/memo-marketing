@@ -1,6 +1,7 @@
 import { MainProps } from "@interfaces/layouts/main.interface"
 import Header from "@components/headers/main"
 import { Container, Wrapper } from "./styles"
+import Footer from "@components/footer/main"
   
 const Layout = ({ children }: MainProps) => {
     return (
@@ -9,6 +10,7 @@ const Layout = ({ children }: MainProps) => {
             <Container>
                 {children}
             </Container>
+            <Footer />
         </Wrapper>
     )
 }

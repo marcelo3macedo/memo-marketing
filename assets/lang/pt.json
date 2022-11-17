@@ -38,5 +38,17 @@
             "title": "Dúvidas, reclamações e sugestões?",
             "action": "Fale Conosco"
         }
+    },
+    "footer": {
+        "company": "Institucional",
+        "attendence": "Atendimento",
+        "talkWithUs": "Fale Conosco",
+        "privacyPolicy": "Políticas de Privacidade",
+        "termsAndConditions": "Termos e condições",
+        "signUp": "Cadastre-se",
+        "whatsapp": "whatsapp: (14) 14 99776-4993",
+        "mail": "e-mail: contato@memorizou.com.br",
+        "workingTime": "horário: Segunda a Sexta das 8h ás 17h",
+        "copyright": "2021  Memorizou - Todos os direitos reservados"
     }
 }
