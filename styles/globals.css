@@ -8,7 +8,16 @@
   --secondary50: #ace1e8;
   --secondary30: #eefbfb;
   --secondary10: #f7ffff;
-  --textSecondary100: #f7ffff;  
+  --textSecondary100: #f7ffff; 
+  --neutral100: #333333;
+  --neutral90: #a6a6a6;
+  --neutral80: #8a9a9c;
+  --neutral60: #c1c2c5;
+  --neutral50: #dfe0e2;
+  --neutral30: #f9f9f9;
+  --neutral10: #f7ffff;
+  --neutral0: #fff;
+  --dark80: #382a40;
   --opacity: 0.8;
   --maxWidth: 1100px;
 }
@@ -33,7 +42,11 @@ a {
 }
 
 h1 {
-  font-size: 42pt;
+  font-size: 36pt;
+}
+
+h2 {
+  font-size: 26pt;
 }
 
 h3 {

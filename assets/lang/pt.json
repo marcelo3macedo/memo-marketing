@@ -14,11 +14,29 @@
             "howWorks": "Veja como funciona"
         },
         "options": {
-            "subTitle": "Diversas Opções",
+            "subTitle": "Divers as Opções",
             "title": "Saia na frente, use o Memo!"
         },
         "howWorks": {
             "title": "Como funciona?"
+        },
+        "ourPlans": {
+            "title": "Nossos planos",
+            "standard": "Standard",
+            "pro": "Pro",
+            "simultaneos": "Número de sessões simultâneas",
+            "cardsPerSession": "Número de cards por sessão",
+            "ads": "Sem exibição de anúncios",
+            "integration": "Integração com Telegram",
+            "evolution": "Análise detalhada de Evolução"
+        },
+        "aboutUs": {
+            "title": "Sobre nós",
+            "description": "Memorizou é uma startup criada por e para pessoas apaixonadas por evolução pessoal e educação. O objetivo desse projeto é fornecer uma ferramenta de modo que possa auxiliar e melhorar de alguma maneira a educação brasileira. O projeto está em constante desenvolvimento e somos abertos a sugestões e reclamações. Estaremos realizando melhorias constantes de modo que cada vez mais o projeto se encontre com a necessidade de nossos usuários."
+        },
+        "talkWithUs": {
+            "title": "Dúvidas, reclamações e sugestões?",
+            "action": "Fale Conosco"
         }
     }
 }

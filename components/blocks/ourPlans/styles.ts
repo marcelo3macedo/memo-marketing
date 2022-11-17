@@ -6,14 +6,10 @@ export const Wrapper = styled.div`
 `;
 
 export const Container = styled.div`
+    text-align: center;
     max-width: var(--maxWidth);
     margin: auto;
-    min-height: 800px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 `;
 
-export const Picture = styled.img`
-    max-width: 500px;
+export const Title = styled.h1`
 `;
