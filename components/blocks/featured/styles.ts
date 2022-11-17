@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-    background: rgb(119,154,158);
-    background: linear-gradient(7deg, rgba(119,154,158,1) 0%, rgba(158,211,218,1) 35%, rgba(172,225,232,1) 100%);
+background: rgb(119,154,158);
+background: linear-gradient(7deg, rgba(119,154,158,1) 0%, rgba(158,211,218,1) 28%, rgba(178,227,233,1) 100%);
 `;
 
 export const Container = styled.div`

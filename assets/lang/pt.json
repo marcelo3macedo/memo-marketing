@@ -16,6 +16,9 @@
         "options": {
             "subTitle": "Diversas Opções",
             "title": "Saia na frente, use o Memo!"
+        },
+        "howWorks": {
+            "title": "Como funciona?"
         }
     }
 }
