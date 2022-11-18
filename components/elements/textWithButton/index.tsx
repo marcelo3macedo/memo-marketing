@@ -1,4 +1,5 @@
 import ButtonSecondary from '@components/buttons/secondary'
+import Link from 'next/link'
 import { useTranslation } from 'react-multi-lang'
 import { Wrapper, Title, SubTitle, Actions } from "./styles"
 
@@ -12,7 +13,9 @@ const TextWithButton = () => {
             <SubTitle>{t('blocks.featured.subTitle')}</SubTitle>
             
             <Actions>
-                <ButtonSecondary content={t('blocks.featured.howWorks')} />
+                <Link href="/howWorks">
+                    <ButtonSecondary content={t('blocks.featured.howWorks')} />
+                </Link>
             </Actions>
         </Wrapper>
     )

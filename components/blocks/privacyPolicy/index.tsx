@@ -1,5 +1,4 @@
 import Policy from "@components/elements/policy"
-import Term from "@components/elements/term"
 import { useTranslation } from "react-multi-lang"
 import { Wrapper, Container, Title, Elements } from "./styles"
 

@@ -1,13 +1,13 @@
 import logo from '@assets/images/logo.png'
-import { useTranslation } from 'react-multi-lang'
-import { Wrapper, Picture, Title } from "./styles"
+import Link from 'next/link'
+import { Wrapper, Picture } from "./styles"
 
 const LogoNamed = () => {
-    const t = useTranslation()
-
     return (
         <Wrapper>
-            <Picture src={logo.src} />
+            <Link href='/'>
+                <Picture src={logo.src} />
+            </Link>
         </Wrapper>
     )
 }

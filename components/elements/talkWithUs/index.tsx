@@ -1,5 +1,6 @@
 import ButtonSecondary from "@components/buttons/secondary"
 import { useTranslation } from "react-multi-lang"
+import Link from "next/link"
 import { Wrapper, Container, Title, Action } from "./styles"
 
 const TalkWithUs = () => {
@@ -10,7 +11,9 @@ const TalkWithUs = () => {
         <Container>
           <Title>{t('blocks.talkWithUs.title')}</Title>
           <Action>
-            <ButtonSecondary content={t('blocks.talkWithUs.action')} /> 
+            <Link href={'/contactUs'}>
+              <ButtonSecondary content={t('blocks.talkWithUs.action')} /> 
+            </Link>
           </Action>
         </Container>
       </Wrapper>

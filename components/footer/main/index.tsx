@@ -13,7 +13,11 @@ const Footer = () => {
                 <Picture src={logo.src} />
                 <Info>
                     <Title>{t('footer.company')}</Title>
-                    <Item><ButtonText content= {t('footer.talkWithUs')} /></Item>
+                    <Item>
+                        <Link href="/contactUs">
+                            <ButtonText content= {t('footer.talkWithUs')} />
+                        </Link>
+                    </Item>
                     <Item>
                         <Link href="/privacyPolicy">
                             <ButtonText content= {t('footer.privacyPolicy')} />
@@ -24,7 +28,11 @@ const Footer = () => {
                             <ButtonText content= {t('footer.termsAndConditions')} />
                         </Link>
                     </Item>
-                    <Item><ButtonText content= {t('footer.signUp')} /></Item>
+                    <Item>
+                        <Link href="https://app.memorizou.com.br/signIn">
+                            <ButtonText content= {t('footer.signUp')} />
+                        </Link>
+                    </Item>
                 </Info>
                 <Info>
                     <Title>{t('footer.attendence')}</Title>
