@@ -1,4 +1,5 @@
 import { useTranslation } from "react-multi-lang"
+import Link from 'next/link'
 import logo from '@assets/images/logoSmall.png'
 import { Container, Wrapper, Picture, Info, Title, Item, Copyright, Message } from "./styles"
 import ButtonText from "@components/buttons/text"
@@ -13,8 +14,16 @@ const Footer = () => {
                 <Info>
                     <Title>{t('footer.company')}</Title>
                     <Item><ButtonText content= {t('footer.talkWithUs')} /></Item>
-                    <Item><ButtonText content= {t('footer.privacyPolicy')} /></Item>
-                    <Item><ButtonText content= {t('footer.termsAndConditions')} /></Item>
+                    <Item>
+                        <Link href="/privacyPolicy">
+                            <ButtonText content= {t('footer.privacyPolicy')} />
+                        </Link>
+                    </Item>
+                    <Item>
+                        <Link href="/termsAndConditions">
+                            <ButtonText content= {t('footer.termsAndConditions')} />
+                        </Link>
+                    </Item>
                     <Item><ButtonText content= {t('footer.signUp')} /></Item>
                 </Info>
                 <Info>
