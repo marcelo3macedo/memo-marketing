@@ -6,7 +6,7 @@ const ListItens = ({ items }:any) => {
         <Wrapper>
             {items.map((i, index) => (
                 <Container key={index}>
-                    <IconLarge name="time" />
+                    <IconLarge name={i.icon} />
                     <Info>
                         <Title>{i.title}</Title>
                         <SubTitle>{i.description}</SubTitle>

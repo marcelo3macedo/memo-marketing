@@ -14,5 +14,5 @@ export const Container = styled.div`
 `;
 
 export const Picture = styled.img`
-    max-width: 600px;
+    width: 100%;
 `;

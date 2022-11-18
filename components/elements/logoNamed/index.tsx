@@ -8,7 +8,6 @@ const LogoNamed = () => {
     return (
         <Wrapper>
             <Picture src={logo.src} />
-            <Title>{t('application.smallName')}</Title>
         </Wrapper>
     )
 }

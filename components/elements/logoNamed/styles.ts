@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
 `;
 
 export const Picture = styled.img`
-    max-width: 50px;
+    max-width: 150px;
 `;
 
 export const Title = styled.h2`

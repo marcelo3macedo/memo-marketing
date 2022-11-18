@@ -1,5 +1,5 @@
 import { useTranslation } from "react-multi-lang"
-import logo from '@assets/images/logo.png'
+import logo from '@assets/images/logoSmall.png'
 import { Container, Wrapper, Picture, Info, Title, Item, Copyright, Message } from "./styles"
 import ButtonText from "@components/buttons/text"
 

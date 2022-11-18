@@ -8,22 +8,22 @@ const TextWithList = () => {
         {
             "title": "Vestibulares",
             "description": "Sessões com diversos conteúdos dos principais vestibulares do Brasil",
-            "icon": "checklist"
+            "icon": "checkedItem"
         },
         {
             "title": "Concursos",
             "description": "Destaque-se memorizando os temas de diversos concursos públicos.",
-            "icon": "checklist"
+            "icon": "listTimed"
         },
         {
             "title": "Certificados / Cursos",
             "description": "Facilite seus cursos e certificações organizando os pontos mais importantes.",
-            "icon": "checklist"
+            "icon": "certified"
         },
         {
             "title": "Crie sua própria sessão",
             "description": "Crie sua sessão customizada com o tema que desejar!",
-            "icon": "checklist"
+            "icon": "cleanIdea"
         }
     ]
 

@@ -1,7 +1,7 @@
 import ButtonPrimary from '@components/buttons/primary'
 import IconLarge from '@components/icons/IconLarge'
 import { useTranslation } from 'react-multi-lang'
-import { Wrapper, Container, Header, Body, Description, Option, Item, Footer } from "./styles"
+import { Wrapper, Container, Header, Body, Description, Option, Item, Footer, Action } from "./styles"
 
 const TableOptions = () => {
     const t = useTranslation()
@@ -27,29 +27,35 @@ const TableOptions = () => {
                     </Item>
                     <Item>
                         <Description>{t('blocks.ourPlans.ads')}</Description>
-                        <Option><IconLarge name="time" /></Option>
-                        <Option><IconLarge name="time" /></Option>
+                        <Option><IconLarge name="close" /></Option>
+                        <Option><IconLarge name="ok" /></Option>
                     </Item>
                     <Item>
                         <Description>{t('blocks.ourPlans.integration')}</Description>
-                        <Option><IconLarge name="time" /></Option>
-                        <Option><IconLarge name="time" /></Option>
+                        <Option><IconLarge name="close" /></Option>
+                        <Option><IconLarge name="ok" /></Option>
                     </Item>
                     <Item>
                         <Description>{t('blocks.ourPlans.evolution')}</Description>
-                        <Option><IconLarge name="time" /></Option>
-                        <Option><IconLarge name="time" /></Option>
+                        <Option><IconLarge name="close" /></Option>
+                        <Option><IconLarge name="ok" /></Option>
                     </Item>
                 </Body>
                 <Footer>
                     <Item>
                         <Description></Description>
                         <Option>
-                            <ButtonPrimary content='Quero esse plano' />
+                            <Action>
+                                <ButtonPrimary content={t('blocks.ourPlans.action.free')} />
+                            </Action>
                         </Option>
                         <Option>
-                            <ButtonPrimary content='Quero esse plano' />
-                            <ButtonPrimary content='Quero esse plano' />
+                            <Action>
+                                <ButtonPrimary content={t('blocks.ourPlans.action.proMonth')} />
+                            </Action>
+                            <Action>
+                                <ButtonPrimary content={t('blocks.ourPlans.action.proTri')} />
+                            </Action>
                         </Option>
                     </Item>
                 </Footer>

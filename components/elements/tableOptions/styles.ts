@@ -43,3 +43,7 @@ export const Item = styled.div`
 export const Footer = styled.div`
     width: 100%;
 `;
+
+export const Action = styled.div`
+    padding: 10px 0;
+`;

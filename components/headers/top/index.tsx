@@ -5,12 +5,10 @@ const HeaderTop = () => {
     const t = useTranslation()
 
     return (
-        <div>
-            <Head>
-                <title>{t('application.title')}</title>
-                <link rel="icon" href="logo.png" />
-            </Head>
-        </div>
+        <Head>
+            <title>{t('application.title')}</title>
+            <link rel="icon" href="logo.png" />
+        </Head>
     )
 }
 

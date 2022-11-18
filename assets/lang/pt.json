@@ -28,7 +28,12 @@
             "cardsPerSession": "Número de cards por sessão",
             "ads": "Sem exibição de anúncios",
             "integration": "Integração com Telegram",
-            "evolution": "Análise detalhada de Evolução"
+            "evolution": "Análise detalhada de Evolução",
+            "action": {
+                "free": "Plano Gratuito",
+                "proMonth": "Plano Mensal - R$ 9.99",
+                "proTri": "Plano Trimestral - R$ 19.99"
+            }
         },
         "aboutUs": {
             "title": "Sobre nós",
