@@ -3,6 +3,10 @@ import styled from 'styled-components';
 export const Wrapper = styled.div`
     background: var(--dark80);
     padding: 80px 0;  
+    
+    @media (max-width: 768px) {
+        padding: 80px 20px;
+    }
 `;
 
 export const Container = styled.div`
@@ -19,8 +23,9 @@ export const Description = styled.h3`
     color: var(--secondary10);
     padding: 40px 0;
     font-weight: normal;
-    text-align: left;
+    text-align: justify;
     line-height: 35px;
+    
 `;
 
 export const Action = styled.div`

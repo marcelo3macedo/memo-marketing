@@ -12,6 +12,10 @@ export const Container = styled.main`
     align-items: center;
     justify-content: space-around;
     text-align: center;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
 `;
 
 export const Picture = styled.img`
@@ -19,7 +23,9 @@ export const Picture = styled.img`
 `;
 
 export const Info = styled.div`
-    
+    @media (max-width: 768px) {
+        padding: 30px 0;
+    }
 `;
 
 export const Title = styled.h4`

@@ -5,6 +5,10 @@ export const Wrapper = styled.div`
     align-items: center;
     justify-content: space-between;
     padding: 15px 0;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
 `;
 
 export const Picture = styled.img`

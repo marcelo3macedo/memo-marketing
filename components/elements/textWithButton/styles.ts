@@ -2,6 +2,10 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
     max-width: 500px;
+
+    @media (max-width: 768px) {
+        padding: 40px 0;
+    }
 `;
 
 export const Title = styled.h1`

@@ -16,4 +16,8 @@ export const TextValue = styled.h4`
     padding: 15px 40px;
     font-weight: bold;
     letter-spacing: 1px;
+
+    @media (max-width: 768px) {
+        padding: 15px 15px;
+    }
 `;

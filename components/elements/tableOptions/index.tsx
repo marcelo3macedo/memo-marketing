@@ -41,6 +41,7 @@ const TableOptions = () => {
                         <Option><IconLarge name="ok" /></Option>
                     </Item>
                 </Body>
+                    
                 <Footer>
                     <Item>
                         <Description></Description>

@@ -46,4 +46,8 @@ export const Footer = styled.div`
 
 export const Action = styled.div`
     padding: 10px 0;
+
+    @media (max-width: 768px) {
+        padding: 5px;
+    }
 `;
