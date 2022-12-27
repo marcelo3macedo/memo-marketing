@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
     background: var(--dark80);
-    padding: 10px 0;
+    padding: 40px 0 0 0;
 `;
 
 export const Container = styled.main`
@@ -30,7 +30,7 @@ export const Info = styled.div`
 
 export const Title = styled.h4`
     color: var(--pallete01);
-    padding-bottom: 10px;   
+    padding: 10px 0;
 `;
 
 export const Item = styled.h4`

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-    background: var(--secondary30);
+    background: var(--pallete01);
     padding: 80px 0;
     min-height: 100vH;
 `;

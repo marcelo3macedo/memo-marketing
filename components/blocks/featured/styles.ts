@@ -15,7 +15,7 @@ export const Container = styled.div`
 `;
 
 export const Picture = styled.img`
-    width: 40%;
-    padding: 0 40px;
+    width: 45%;
+    padding: 0 20px;
     margin: auto;
 `;

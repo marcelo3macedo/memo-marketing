@@ -13,6 +13,7 @@ export const Wrapper = styled.div`
 export const Container = styled.div`
     max-width: var(--maxWidth);
     margin: auto;
+    padding: 0 20px;
     min-height: 800px;
     display: flex;
     align-items: center;
@@ -49,6 +50,7 @@ export const Main = styled.div`
     justify-content: space-between;
     max-width: var(--maxWidth);
     margin: auto;
+    padding: 0 20px;
 `;
 
 export const Title = styled.h2`

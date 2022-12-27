@@ -13,6 +13,7 @@ export const Container = styled.div`
     text-align: center;
     max-width: var(--maxWidth);
     margin: auto;
+    padding: 0 20px;
 `;
 
 export const Title = styled.h1`

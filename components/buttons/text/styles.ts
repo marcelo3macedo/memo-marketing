@@ -14,5 +14,4 @@ export const Wrapper = styled.button`
 
 export const TextValue = styled.h4`
     font-weight: normal;
-    letter-spacing: 1px;
 `;

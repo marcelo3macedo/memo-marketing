@@ -17,5 +17,6 @@ export const Description = styled.h4`
     font-weight: normal;
     text-align: justify;
     padding: 5px 0;
+    line-height: 30px;
 `;
 
