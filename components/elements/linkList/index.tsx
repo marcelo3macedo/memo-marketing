@@ -16,6 +16,9 @@ const LinkList = () => {
             <Link href='/contactUs'>
                 <Title>{t('links.contactUs')}</Title>
             </Link>
+            <Link href='/contactUs'>
+                <Title className='featured'>{t('links.startNow')}</Title>
+            </Link>
         </Wrapper>
     )
 }

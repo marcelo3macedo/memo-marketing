@@ -2,7 +2,7 @@ import TableOptions from "@components/elements/tableOptions"
 import { useTranslation } from "react-multi-lang"
 import { Wrapper, Container, Title } from "./styles"
 
-const BlockOurPlans = () => {
+const OurPlans = () => {
   const t = useTranslation()
 
   return (
@@ -15,4 +15,4 @@ const BlockOurPlans = () => {
   )
 }
 
-export default BlockOurPlans
+export default OurPlans

@@ -1,6 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;800&display=swap');
 
 :root {
+  --pallete01: #e5ddc8;
+  --pallete02: #01949a;
+  --pallete03: #004369;
+  --pallete04: #db1f48;
+
   --primary: #545454;
   --secondaryDark: #177472;
   --secondary100: #21b3af;
@@ -19,7 +24,7 @@
   --neutral0: #fff;
   --dark80: #382a40;
   --opacity: 0.8;
-  --maxWidth: 1100px;
+  --maxWidth: 1500px;
 }
 
 * {
@@ -32,8 +37,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Barlow', sans-serif;
   color: var(--primary);
+  font-family: 'League Spartan', sans-serif;
 }
 
 a {
@@ -42,19 +47,20 @@ a {
 }
 
 h1 {
-  font-size: 36pt;
+  font-size: 46pt;
+  line-height: 80px;
 }
 
 h2 {
-  font-size: 26pt;
+  font-size: 36pt;
 }
 
 h3 {
-  font-size: 18pt;
+  font-size: 24pt;
 }
 
 h4 {
-  font-size: 1.05em;
+  font-size: 16pt;
 }
 
 @media (max-width: 768px) {

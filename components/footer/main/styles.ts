@@ -29,13 +29,13 @@ export const Info = styled.div`
 `;
 
 export const Title = styled.h4`
-    color: var(--secondary10);
+    color: var(--pallete01);
     padding-bottom: 10px;   
 `;
 
 export const Item = styled.h4`
     font-weight: normal;
-    color: var(--secondary10);
+    color: var(--pallete01);
     padding: 5px 0;
 `;
 
@@ -44,6 +44,7 @@ export const Copyright = styled.div`
     padding: 40px 0 10px 0;
 `;
 
-export const Message = styled.h5`
-    color: var(--secondary10);    
+export const Message = styled.h4`
+    color: var(--pallete01); 
+    padding: 20px 0;   
 `;

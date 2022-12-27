@@ -1,4 +1,4 @@
-import logo from '@assets/images/logo.png'
+import logo from '@assets/images/extended-logo.png'
 import Link from 'next/link'
 import { Wrapper, Picture } from "./styles"
 

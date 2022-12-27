@@ -2,7 +2,7 @@ import TalkWithUs from "@components/elements/talkWithUs"
 import { useTranslation } from "react-multi-lang"
 import { Wrapper, Container, Title, Description, Action } from "./styles"
 
-const BlockAboutUs = () => {
+const AboutUs = () => {
   const t = useTranslation()
 
   return (
@@ -18,4 +18,4 @@ const BlockAboutUs = () => {
   )
 }
 
-export default BlockAboutUs
+export default AboutUs

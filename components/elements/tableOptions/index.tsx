@@ -1,5 +1,5 @@
 import ButtonPrimary from '@components/buttons/primary'
-import IconLarge from '@components/icons/IconLarge'
+import IconMedium from '@components/icons/IconMedium'
 import { useTranslation } from 'react-multi-lang'
 import { Wrapper, Container, Header, Body, Description, Option, Item, Footer, Action } from "./styles"
 
@@ -27,18 +27,18 @@ const TableOptions = () => {
                     </Item>
                     <Item>
                         <Description>{t('blocks.ourPlans.ads')}</Description>
-                        <Option><IconLarge name="close" /></Option>
-                        <Option><IconLarge name="ok" /></Option>
+                        <Option><IconMedium name="close" /></Option>
+                        <Option><IconMedium name="ok" /></Option>
                     </Item>
                     <Item>
                         <Description>{t('blocks.ourPlans.integration')}</Description>
-                        <Option><IconLarge name="close" /></Option>
-                        <Option><IconLarge name="ok" /></Option>
+                        <Option><IconMedium name="close" /></Option>
+                        <Option><IconMedium name="ok" /></Option>
                     </Item>
                     <Item>
                         <Description>{t('blocks.ourPlans.evolution')}</Description>
-                        <Option><IconLarge name="close" /></Option>
-                        <Option><IconLarge name="ok" /></Option>
+                        <Option><IconMedium name="close" /></Option>
+                        <Option><IconMedium name="ok" /></Option>
                     </Item>
                 </Body>
                     

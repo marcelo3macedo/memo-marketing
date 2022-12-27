@@ -6,7 +6,7 @@ import Footer from "@components/footer/main"
 const Layout = ({ children }: MainProps) => {
     return (
         <Wrapper>
-            <Header/>      
+            <Header/>
             <Container>
                 {children}
             </Container>

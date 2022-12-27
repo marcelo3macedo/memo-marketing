@@ -1,11 +1,13 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-    background: var(--secondary50);
+    background: var(--pallete01);
+    padding: 10px 0px;
 `;
 
 export const Container = styled.main`
     max-width: var(--maxWidth);
+    padding: 0 20px;
     margin: auto;
     display: flex;
     align-items: center;

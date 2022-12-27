@@ -15,8 +15,13 @@ export const Picture = styled.img`
     max-width: 150px;
 `;
 
-export const Title = styled.h5`
-    font-weight: bold;
+export const Title = styled.h4`
     text-transform: uppercase;
+    font-weight: bold;
     padding: 0 40px;
+    color: var(--pallete03);
+
+    &.featured {
+        color: var(--pallete02);
+    }
 `;

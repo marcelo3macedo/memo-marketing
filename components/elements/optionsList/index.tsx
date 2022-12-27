@@ -1,7 +1,9 @@
+import { useTranslation } from 'react-multi-lang'
 import ListItens from '../listItens'
-import { Wrapper } from "./styles"
+import { Title, Wrapper } from "./styles"
 
 const OptionsList = () => {
+    const t = useTranslation()
     const items = [
         {
             "title": "Selecione temas de seu interesse",
@@ -32,6 +34,7 @@ const OptionsList = () => {
 
     return (
         <Wrapper>
+            <Title>{t('blocks.howWorks.doubt')}</Title>
             <ListItens items={items} /> 
         </Wrapper>
     )

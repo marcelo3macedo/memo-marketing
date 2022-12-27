@@ -1,16 +1,14 @@
-import books from "@assets/images/blocks/books.png"
 import TextWithList from "@components/elements/textWithList"
-import { Wrapper, Container, Picture } from "./styles"
+import { Wrapper, Container } from "./styles"
 
-const BlockOptions = () => {
+const Options = () => {
     return (
         <Wrapper>
           <Container>
-            <Picture src={books.src} />
             <TextWithList />
           </Container>
         </Wrapper>
     )
 }
 
-export default BlockOptions
+export default Options

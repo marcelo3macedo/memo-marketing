@@ -1,4 +1,4 @@
-import IconLarge from '@components/icons/IconLarge'
+import IconExtraLarge from '@components/icons/IconExtraLarge'
 import { Wrapper, Title, SubTitle, Container, Info } from "./styles"
 
 const ListItens = ({ items }:any) => {
@@ -6,7 +6,7 @@ const ListItens = ({ items }:any) => {
         <Wrapper>
             {items.map((i, index) => (
                 <Container key={index}>
-                    <IconLarge name={i.icon} />
+                    <IconExtraLarge name={i.icon}  />
                     <Info>
                         <Title>{i.title}</Title>
                         <SubTitle>{i.description}</SubTitle>

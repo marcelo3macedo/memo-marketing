@@ -24,7 +24,7 @@ export const Description = styled.h3`
     padding: 40px 0;
     font-weight: normal;
     text-align: justify;
-    line-height: 35px;
+    line-height: 55px;
     
 `;
 

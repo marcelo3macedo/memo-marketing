@@ -9,16 +9,20 @@
     "blocks": {
         "featured": {
             "welcome": "Bem-vindo ao Memorizou!",
-            "title": "Destaque-se!",
-            "subTitle": "Vestibulares, concursos, escola ou faculdade\nUtilize o memo como seu parceiro de estudos",
+            "method": "O Método",
+            "numberOne": "Número 1",
+            "yourStudies": "De seus estudos",
+            "subTitle": "Destaque-se em vestibulares,  concursos e muito mais",
             "howWorks": "Veja como funciona"
         },
         "options": {
             "subTitle": "Diversas Opções",
-            "title": "Saia na frente, use o Memo!"
+            "title": "Saia na frente, utilize o Memo!"
         },
         "howWorks": {
-            "title": "Como funciona?"
+            "title": "Saia na frente, utilize o Memo!",
+            "subTitle": "A ferramenta te acompanhará diariamente analisando suas facilidades e dificuldades e através das informações extraídas irá criar sessões específicas para você.",
+            "doubt": "Como Funciona?"
         },
         "ourPlans": {
             "title": "Nossos planos",
@@ -30,9 +34,9 @@
             "integration": "Integração com Telegram",
             "evolution": "Análise detalhada de Evolução",
             "action": {
-                "free": "Plano Gratuito",
-                "proMonth": "Plano Mensal - R$ 9.99",
-                "proTri": "Plano Trimestral - R$ 19.99"
+                "free": "Gratuito",
+                "proMonth": "Mensal - R$ 9.99",
+                "proTri": "Trimestral - R$ 19.99"
             }
         },
         "aboutUs": {
@@ -116,6 +120,7 @@
     "links": {
         "howWorks": "Como funciona",
         "plans": "Planos",
-        "contactUs": "Contate-nos"
+        "contactUs": "Contate-nos",
+        "startNow": "Começar já"
     }
 }

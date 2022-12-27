@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-    background: var(--secondary60);  
+    background: var(--pallete03);
     padding: 80px 0;
     text-align: center;
 
@@ -33,15 +33,32 @@ export const Picture = styled.img`
 `;
 
 export const PictureFull = styled.img`
-    max-width: 800px;
+    max-width: 1000px;
     padding: 20px 0;
+    border-radius: 80px;
 
     @media (max-width: 768px) {
         max-width: 100%;
     }
 `;
 
-export const Title = styled.h1`
-    text-align: center;
+
+export const Main = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: var(--maxWidth);
+    margin: auto;
 `;
 
+export const Title = styled.h2`
+    text-align: left;
+    color: var(--pallete01);
+`;
+
+export const SubTitle = styled.h4`
+    color: var(--pallete01);
+    text-align: justify;
+    max-width: 50%;
+    line-height: 30px;
+`;

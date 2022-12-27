@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-    background: var(--secondary30);
+    background: var(--pallete02);
     padding: 80px 0;  
 
     @media (max-width: 768px) {
@@ -16,4 +16,5 @@ export const Container = styled.div`
 `;
 
 export const Title = styled.h1`
+    color: var(--pallete01);
 `;

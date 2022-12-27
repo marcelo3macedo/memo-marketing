@@ -1,10 +1,11 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.button`
-    border-radius: 10px;
+    padding: 10px;
+    border-radius: 30px;
     border: none;
-    background: var(--secondaryDark);
-    color: var(--textSecondary100);
+    background: var(--pallete04);
+    color: var(--pallete01);
 
     &:hover {
         cursor: pointer;
@@ -13,7 +14,8 @@ export const Wrapper = styled.button`
 `;
 
 export const TextValue = styled.h4`
-    padding: 15px 40px;
+    padding: 15px 30px;
+    text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 1px;
 

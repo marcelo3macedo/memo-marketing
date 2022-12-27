@@ -1,8 +1,8 @@
-import womanThinking from "@assets/images/blocks/womanThinking.png"
+import womanThinking from "@assets/images/blocks/book-study.png"
 import TextWithButton from "@components/elements/textWithButton"
 import { Wrapper, Picture, Container } from "./styles"
 
-const BlockFeatured = () => {
+const Featured = () => {
     return (
         <Wrapper>
           <Container>
@@ -13,4 +13,4 @@ const BlockFeatured = () => {
     )
 }
 
-export default BlockFeatured
+export default Featured

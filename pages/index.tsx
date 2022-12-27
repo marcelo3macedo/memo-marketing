@@ -1,18 +1,18 @@
-import BlockAboutUs from "@components/blocks/aboutUs";
-import BlockFeatured from "@components/blocks/featured";
-import BlockHowWorks from "@components/blocks/howWorks";
-import BlockOptions from "@components/blocks/options";
-import BlockOurPlans from "@components/blocks/ourPlans";
+import AboutUs from "@components/blocks/aboutUs";
+import Featured from "@components/blocks/featured";
+import HowWorks from "@components/blocks/howWorks";
+import Options from "@components/blocks/options";
+import OurPlans from "@components/blocks/ourPlans";
 import Layout from "@components/layouts/main";
 
 export default function Home() {
   return (
-    <Layout>      
-      <BlockFeatured />
-      <BlockOptions />
-      <BlockHowWorks />
-      <BlockOurPlans />
-      <BlockAboutUs />
+    <Layout>
+      <Featured />
+      <Options />
+      <HowWorks />
+      <OurPlans />
+      <AboutUs />
     </Layout>
   )
 }

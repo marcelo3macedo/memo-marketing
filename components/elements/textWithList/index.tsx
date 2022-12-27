@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-multi-lang'
 import ListItens from '../listItens'
-import { Wrapper, Title, SubTitle } from "./styles"
+import { Wrapper } from "./styles"
 
 const TextWithList = () => {
     const t = useTranslation()
@@ -29,8 +29,6 @@ const TextWithList = () => {
 
     return (
         <Wrapper>
-            <SubTitle>{t('blocks.options.subTitle')}</SubTitle>
-            <Title>{t('blocks.options.title')}</Title>
             <ListItens items={items} /> 
         </Wrapper>
     )
