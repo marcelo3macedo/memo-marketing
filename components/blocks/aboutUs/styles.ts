@@ -5,7 +5,7 @@ export const Wrapper = styled.div`
     padding: 80px 0;  
     
     @media (max-width: 768px) {
-        padding: 80px 20px;
+        padding: 80px 0px;
     }
 `;
 
@@ -26,6 +26,12 @@ export const Description = styled.h3`
     font-weight: normal;
     text-align: justify;
     line-height: 55px;
+
+    
+    @media (max-width: 768px) {
+        text-align: left;
+        line-height: 34px;
+    }
     
 `;
 

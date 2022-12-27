@@ -6,6 +6,10 @@ export const Wrapper = styled.div`
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+
+    @media (max-width: 768px) {        
+        flex-direction: column;
+    }
 `;
 
 export const Container = styled.div`

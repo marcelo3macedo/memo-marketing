@@ -14,6 +14,6 @@ export const Container = styled.main`
     justify-content: space-between;
 
     @media (max-width: 768px) {
-        padding: 0 10px;
+        display: none;
     }
 `;

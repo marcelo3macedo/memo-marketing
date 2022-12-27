@@ -11,6 +11,12 @@ export const Wrapper = styled.button`
         cursor: pointer;
         opacity: var(--opacity);
     }
+
+
+    @media (max-width: 768px) {
+        padding: 5px;
+        margin: 5px 0;
+    }
 `;
 
 export const TextValue = styled.h4`
@@ -20,6 +26,6 @@ export const TextValue = styled.h4`
     letter-spacing: 1px;
 
     @media (max-width: 768px) {
-        padding: 15px 15px;
+        padding: 10px 0;        
     }
 `;

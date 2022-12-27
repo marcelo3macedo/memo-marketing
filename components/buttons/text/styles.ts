@@ -4,7 +4,7 @@ export const Wrapper = styled.button`
     border-radius: 10px;
     border: none;
     background: none;
-    color: var(--secondary10);
+    color: var(--pallete01);
     
     &:hover {
         cursor: pointer;

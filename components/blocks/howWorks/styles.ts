@@ -51,6 +51,10 @@ export const Main = styled.div`
     max-width: var(--maxWidth);
     margin: auto;
     padding: 0 20px;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
 `;
 
 export const Title = styled.h2`
@@ -63,4 +67,9 @@ export const SubTitle = styled.h4`
     text-align: justify;
     max-width: 50%;
     line-height: 30px;
+
+    @media (max-width: 768px) {
+        max-width: 100%;
+        padding: 20px 0;
+    }
 `;
