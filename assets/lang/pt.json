@@ -1,7 +1,8 @@
 {
     "application": {
         "title": "Memorizou - Sua ferramenta de memorização",
-        "smallName": "memo"
+        "smallName": "memo",
+        "description": "O método número 1 de seus estudos. Destaque-se em vestibulares, concursos, provas e muito mais."
     },
     "menu": {
         "startNow": "Começar já!"
