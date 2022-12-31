@@ -21,8 +21,8 @@ const TextWithButton = () => {
             <SubTitle>{t('blocks.featured.subTitle')}</SubTitle>
             
             <Actions>
-                <Link href="/howWorks">
-                    <ButtonPrimary content={t('blocks.featured.howWorks')} />
+                <Link href={`${process.env.NEXT_PUBLIC_APP_ENDPOINT}/signIn`}>
+                    <ButtonPrimary content={t('blocks.featured.startNow')} />
                 </Link>
             </Actions>
         </Wrapper>

@@ -4,7 +4,7 @@ import { Wrapper, Title } from "./styles"
 
 const LinkList = () => {
     const t = useTranslation()
-
+    
     return (
         <Wrapper>
             <Link href='/howWorks'>
@@ -16,7 +16,7 @@ const LinkList = () => {
             <Link href='/contactUs'>
                 <Title>{t('links.contactUs')}</Title>
             </Link>
-            <Link href='/contactUs'>
+            <Link href={`${process.env.NEXT_PUBLIC_APP_ENDPOINT}/signIn`}>
                 <Title className='featured'>{t('links.startNow')}</Title>
             </Link>
         </Wrapper>

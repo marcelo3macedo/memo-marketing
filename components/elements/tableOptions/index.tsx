@@ -1,10 +1,12 @@
 import ButtonPrimary from '@components/buttons/primary'
 import IconMedium from '@components/icons/IconMedium'
+import Link from 'next/link'
 import { useTranslation } from 'react-multi-lang'
 import { Wrapper, Container, Header, Body, Description, Option, Item, Footer, Action } from "./styles"
 
 const TableOptions = () => {
     const t = useTranslation()
+    const loginEndpoint = `${process.env.NEXT_PUBLIC_APP_ENDPOINT}/signIn`
 
     return (
         <Wrapper>
@@ -47,15 +49,21 @@ const TableOptions = () => {
                         <Description></Description>
                         <Option>
                             <Action>
-                                <ButtonPrimary content={t('blocks.ourPlans.action.free')} />
+                                <Link href={`${process.env.NEXT_PUBLIC_APP_ENDPOINT}/plans/free`}>
+                                    <ButtonPrimary content={t('blocks.ourPlans.action.free')} />
+                                </Link>
                             </Action>
                         </Option>
                         <Option>
                             <Action>
-                                <ButtonPrimary content={t('blocks.ourPlans.action.proMonth')} />
+                                <Link href={`${process.env.NEXT_PUBLIC_APP_ENDPOINT}/plans/month`}>
+                                    <ButtonPrimary content={t('blocks.ourPlans.action.proMonth')} />
+                                </Link>
                             </Action>
                             <Action>
-                                <ButtonPrimary content={t('blocks.ourPlans.action.proTri')} />
+                                <Link href={`${process.env.NEXT_PUBLIC_APP_ENDPOINT}/plans/trimestral`}>
+                                    <ButtonPrimary content={t('blocks.ourPlans.action.proTri')} />
+                                </Link>
                             </Action>
                         </Option>
                     </Item>

@@ -7,8 +7,8 @@ const Policy = ({ title, description }) => {
       <Wrapper>
         <Container>
           <Title>{title}</Title>
-          { multiline.map(line => (
-            <Description>{line}</Description>
+          { multiline.map((line, i) => (
+            <Description key={i}>{line}</Description>
           )) }          
         </Container>
       </Wrapper>

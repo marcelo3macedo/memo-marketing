@@ -29,7 +29,7 @@ const Footer = () => {
                         </Link>
                     </Item>
                     <Item>
-                        <Link href="https://app.memorizou.com.br/signIn">
+                        <Link href={`${process.env.NEXT_PUBLIC_APP_ENDPOINT}/signIn`}>
                             <ButtonText content= {t('footer.signUp')} />
                         </Link>
                     </Item>
