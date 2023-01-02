@@ -6,8 +6,7 @@ import { Wrapper, Container, Header, Body, Description, Option, Item, Footer, Ac
 
 const TableOptions = () => {
     const t = useTranslation()
-    const loginEndpoint = `${process.env.NEXT_PUBLIC_APP_ENDPOINT}/signIn`
-
+    
     return (
         <Wrapper>
             <Container>
