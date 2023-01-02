@@ -49,19 +49,19 @@ const TableOptions = () => {
                         <Description></Description>
                         <Option>
                             <Action>
-                                <Link href={`${process.env.NEXT_PUBLIC_APP_ENDPOINT}/plans/free`}>
+                                <Link href={`${process.env.NEXT_PUBLIC_APP_ENDPOINT}/plans`}>
                                     <ButtonPrimary content={t('blocks.ourPlans.action.free')} />
                                 </Link>
                             </Action>
                         </Option>
                         <Option>
                             <Action>
-                                <Link href={`${process.env.NEXT_PUBLIC_APP_ENDPOINT}/plans/month`}>
+                                <Link href={`${process.env.NEXT_PUBLIC_APP_ENDPOINT}/plans/Mensal`}>
                                     <ButtonPrimary content={t('blocks.ourPlans.action.proMonth')} />
                                 </Link>
                             </Action>
                             <Action>
-                                <Link href={`${process.env.NEXT_PUBLIC_APP_ENDPOINT}/plans/trimestral`}>
+                                <Link href={`${process.env.NEXT_PUBLIC_APP_ENDPOINT}/plans/Trimestral`}>
                                     <ButtonPrimary content={t('blocks.ourPlans.action.proTri')} />
                                 </Link>
                             </Action>
